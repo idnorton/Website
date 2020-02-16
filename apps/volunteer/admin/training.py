@@ -1,6 +1,5 @@
 from ..flask_admin_base import FlaskVolunteerAdminAppMixin
 from flask_admin.contrib.sqla import ModelView
-from flask_admin.form import rules
 
 from main import volunteer_admin, db
 from models.volunteer.training import Training
